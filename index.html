@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<script src="angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.5.5/angular-route.js"></script>
+	<script src="script.js"></script>
+	<script src="controller.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="navbar">
+		<ul>
+			<li><a href="#/Cat">Cat</a></li>
+			<li><a href="#/Dog">Dog</a></li>
+			<li><a href="#/lemur">Lemur</a></li>
+			<li><a href="#/lion">Lion</a></li>
+		</ul>
+		<div id="view" ng-view=""></div>
+	</div>
+
+
+	
+</body>
+</html>
